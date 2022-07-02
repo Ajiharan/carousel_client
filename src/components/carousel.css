@@ -1,0 +1,34 @@
+.Carousel-container {
+  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.slide img {
+  width: 100vw;
+  height: 50vh;
+}
+
+.slide__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+}
+
+.slide__title h2 {
+  margin-bottom: 1rem;
+}

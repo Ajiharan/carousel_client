@@ -3,7 +3,7 @@
   height: 50vh;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 30rem;
 }
 
 .slide {
@@ -17,18 +17,5 @@
 
 .slide img {
   width: 100vw;
-  height: 50vh;
-}
-
-.slide__title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  color: white;
-}
-
-.slide__title h2 {
-  margin-bottom: 1rem;
+  height: 90vh;
 }

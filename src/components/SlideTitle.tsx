@@ -1,4 +1,5 @@
 import React from "react";
+import "./side-title.css";
 
 type Title = {
   title: string;
